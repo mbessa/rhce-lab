@@ -40,24 +40,29 @@ OR
 
 ❯ ssh root@192.168.56.120
 
-# default users passwords
-# root: password
-# vagrant: vagrant
-# ansible: password
-
 ```
 
 
 
 ### **VM's launched by default**
 
-|       hostname      	|       IP       	| python3 	| User ansible 	| User root 	| Extra disk 	|
-|:-------------------:	|:--------------:	|:-------:	|:------------:	|:---------:	|:----------:	|
-| control.example.com 	| 192.168.56.120 	|   yes   	|   password   	|  password 	|     DVD    	|
-| server1.example.com 	| 192.168.56.121 	|    no   	|              	|  password 	|     5G     	|
-| server2.example.com 	| 192.168.56.122 	|    no   	|              	|  password 	|     5G     	|
-| server3.example.com 	| 192.168.56.123 	|    no   	|              	|  password 	|     no     	|
-| server4.example.com 	| 192.168.56.124 	|    no   	|              	|  password 	|     no     	|
+
+### Users passwords:
+> root: password
+>
+> vagrant: vagrant
+>
+> ansible: password 
+
+
+
+|       hostname      	|       IP       	| python3 	| User ansible 	| Extra disk 	|
+|:-------------------:	|:--------------:	|:-------:	|:------------:	|:----------:	|
+| control.example.com 	| 192.168.56.120 	|   yes   	|      yes   	|     DVD    	|
+| server1.example.com 	| 192.168.56.121 	|    no   	|       no     	|     5G     	|
+| server2.example.com 	| 192.168.56.122 	|    no   	|       no     	|     5G     	|
+| server3.example.com 	| 192.168.56.123 	|    no   	|       no     	|     no     	|
+| server4.example.com 	| 192.168.56.124 	|    no   	|       no     	|     no     	|
 
 
 Control node configuration:

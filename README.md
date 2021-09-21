@@ -10,7 +10,11 @@
 ### **Usage**
 
 ```bash
+# Clone repo:
+❯ git clone git@github.com:mbessa/rhce-lab.git
+
 # To start VM's:
+❯ cd rhce-lab
 ❯ vagrant up
 ....
 

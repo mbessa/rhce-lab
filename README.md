@@ -4,8 +4,8 @@
 
 ### **Requirements**
 
-* Virtualbox
-* Vagrant
+* [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+* [Vagrant](https://www.vagrantup.com/)
 
 ### **Usage**
 
@@ -39,6 +39,11 @@ OR
 OR 
 
 ❯ ssh root@192.168.56.120
+
+# default users passwords
+# root: password
+# vagrant: vagrant
+# ansible: password
 
 ```
 
